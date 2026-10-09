@@ -1,0 +1,84 @@
+# 🚗 AutoSale Prediction
+
+## 📌 Project Overview
+AutoSale Prediction is a Machine Learning project designed to predict automobile sales using historical data and relevant features. The project uses Python and a trained Machine Learning model to generate predictions through a simple Streamlit web application.
+
+## 🎯 Objectives
+- Predict automobile sales using Machine Learning.
+- Analyze automobile sales data.
+- Build an interactive web application using Streamlit.
+- Provide a simple interface for users to obtain predictions.
+
+## 🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Pickle
+- Machine Learning
+
+## 📂 Project Structure
+```text
+AutoSale-Prediction/
+├── app (4).py
+├── autos_dataset.csv
+├── dt_reg.pkl
+├── feature_columns.pkl
+├── preprocess_info.pkl
+├── processed_auto.csv
+├── requirements (1).txt
+└── README.md
+```
+
+*Note: Update the filenames in this structure if you rename your files.*
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YOUR-USERNAME/AutoSale-Prediction.git
+```
+
+### 2. Navigate to the Project Folder
+```bash
+cd AutoSale-Prediction
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r "requirements (1).txt"
+```
+
+### 4. Run the Application
+```bash
+python -m streamlit run "app.py"
+```
+
+The application will open in your browser, usually at `http://localhost:8501`.
+
+## 🔍 Key Features
+- Machine Learning-based sales prediction.
+- Data preprocessing and feature handling.
+- Interactive Streamlit interface.
+- Reusable trained model.
+- Simple and user-friendly design.
+
+## 💡 Applications
+- Automobile sales analysis.
+- Sales forecasting support.
+- Business planning and decision-making.
+- Academic Machine Learning projects.
+
+## 🚀 Future Scope
+- Improve prediction accuracy.
+- Add interactive charts and visualizations.
+- Include more automobile sales data.
+- Deploy the application online.
+- Develop a more advanced forecasting model.
+
+## 👩‍💻 Author
+**Shruti Bhalerao**
+
+## 📄 License
+This project is intended for educational and learning purposes.
